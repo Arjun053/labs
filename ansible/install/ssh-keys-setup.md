@@ -4,7 +4,7 @@
 
 ### add user to sudoers for root previliges  on all machines ( all targets )
 
-	echo -e 'arjun  ALL=(ALL)  NOPASSWD:  ALL' > /etc/sudoers.d/botuser
+	echo -e 'arjun  ALL=(ALL)  NOPASSWD:  ALL' > /etc/sudoers.d/arjun
 
 ### genereate ssh keys for above user on contrller machine 
 
