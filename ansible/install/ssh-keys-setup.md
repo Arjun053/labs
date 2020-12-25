@@ -1,6 +1,6 @@
 ### create a user on all machines ( controller & all targets )
 
-	useradd arjun -m -d /home/botuser -s /bin/bash
+	useradd arjun -m -d /home/arjun -s /bin/bash
 
 ### add user to sudoers for root previliges  on all machines ( all targets )
 
