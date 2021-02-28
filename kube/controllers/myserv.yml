@@ -1,0 +1,11 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: mysev
+spec:
+  type: ClusterIP
+  selector:
+    app: helloapp
+  ports:
+    - port:80
+      targetPort: 8080
